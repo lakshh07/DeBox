@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Lato&family=Philosopher:ital,wght@0,700;1,400&family=Raleway&display=swap");
+.app {
+  background: url(../pages/assets/background.png), no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.blur-box {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(70px) !important ;
+}
+
+.btn {
+  color: white;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(
+    113.28deg,
+    #d982f8 8.12%,
+    #8444e6 92.8%
+  ) !important;
+  transition: all 0.2s ease;
+}
+.btn:hover {
+  background: linear-gradient(
+    113.28deg,
+    #d982f8 8.12%,
+    #8444e6 92.8%
+  ) !important;
+  top: -2px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.css-1jrtelv {
+  background: linear-gradient(
+    113.28deg,
+    #d982f8 8.12%,
+    #8444e6 92.8%
+  ) !important;
+}
+.progressbar {
+  filter: drop-shadow(0px 5px 3px rgba(2, 2, 2, 0.1)) !important;
+}
+
+.hero-heading {
+  font-weight: 700 !important;
+  font-size: 5rem !important;
+}
+.hero-heading span {
+  text-decoration: underline;
+  text-decoration-thickness: 8px;
+  /* text-decoration: none;
+  border-bottom: 10px solid black; */
+  color: purple;
+}
+.heading {
+  filter: drop-shadow(rgba(0, 0, 0, 0.55) 0px 5px 15px);
+}
+
+.hero-blur {
+  /* background: rgba(255, 250, 250, 0.5); */
+  background: linear-gradient(
+    113.28deg,
+    rgba(217, 130, 248, 0.3) 8.12%,
+    rgba(133, 68, 230, 0.3) 92.8%
+  );
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.player svg {
+  margin: 7rem 0;
+}
+
+.dashboard-blur {
+  background: linear-gradient(
+    113.28deg,
+    rgba(217, 130, 248, 0.2) 8.12%,
+    rgba(133, 68, 230, 0.2) 92.8%
+  );
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  /* border-radius: 10px; */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.info-icon {
+  position: relative;
+  right: 0 !important;
+}
+
+.blur {
+  background: rgba(245, 245, 245) !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+}
+.file-blur {
+  background: transparent;
+  border: 1px solid transparent;
+  transition: all 0.4s ease;
+  width: 180px;
+}
+.file-blur:hover {
+  position: relative;
+  top: -2px;
+  background: rgba(255, 250, 250, 0.1);
+  /* background: linear-gradient(113.28deg, rgba(217, 130, 248, 0) 8.12%, rgba(133, 68, 230, 0.1) 80.8%); */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: all 0.4s ease;
+}
+
+.upload-icon {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  padding: 0.8rem 0.8rem 0.2rem;
+  border-radius: 50%;
+  color: white;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(
+    113.28deg,
+    #d982f8 8.12%,
+    #8444e6 92.8%
+  ) !important;
+  transition: all 0.2s ease;
+}
+.upload-icon:hover {
+  background: linear-gradient(
+    113.28deg,
+    #d982f8 8.12%,
+    #8444e6 92.8%
+  ) !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}

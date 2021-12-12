@@ -1,0 +1,45 @@
+{
+  "name": "decloud",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@3id/connect": "^0.2.5",
+    "@ceramicnetwork/3id-did-resolver": "^1.4.9",
+    "@ceramicnetwork/http-client": "^1.5.0",
+    "@ceramicstudio/idx": "^0.12.2",
+    "@chakra-ui/react": "^1.7.2",
+    "@dicebear/adventurer": "^4.10.1",
+    "@dicebear/avatars": "^4.10.1",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@lottiefiles/react-lottie-player": "^3.4.1",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.3",
+    "dids": "^2.4.2",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.1",
+    "framer-motion": "^4",
+    "fs": "^0.0.1-security",
+    "hardhat": "^2.6.8",
+    "ipfs-core": "^0.12.0",
+    "moment": "^2.29.1",
+    "moralis": "^0.0.142",
+    "next": "12.0.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-moralis": "^0.3.0",
+    "web3.storage": "^3.5.0"
+  },
+  "devDependencies": {
+    "eslint": "7",
+    "eslint-config-next": "12.0.4"
+  }
+}
